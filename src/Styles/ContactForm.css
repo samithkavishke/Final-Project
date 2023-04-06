@@ -1,0 +1,44 @@
+.formCon{
+    padding-top: 9rem;
+    padding-left: 100rem;
+    padding-right: 1rem;
+    margin: auto;
+    color: rgb(16, 10, 10);
+    
+}
+form.conForm{
+ padding-top: 1rem;
+ padding-left: 10rem;
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ margin : auto;
+}
+.input1{
+    height: 4rem;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+.text1{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+.button1{
+    
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: white;
+    height: 50px;
+    width: 180px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin:auto ;
+}

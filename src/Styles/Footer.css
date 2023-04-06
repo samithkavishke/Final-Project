@@ -1,0 +1,54 @@
+.footer{
+  padding: 4rem 6rem;
+  background:white;
+  color: black;
+  
+}
+.top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.top-smIcon{
+        color: black;
+        margin: 20px;
+        font-size: 70px;
+        cursor: pointer;
+}
+
+.bottom{
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bottom div{
+    display: flex;
+    flex-direction: column;
+
+}
+.bottom h2{
+    font-size: 1.3rem;
+    padding: 0rem 0 0.8rem 0;
+}
+.f{
+    text-decoration: none;
+    color: black;
+    padding-bottom:0.4rem ;
+    font-size: 1.1rem;
+}
+@media screen and (max-width:850px){
+  .footer{
+    padding: 4rem 2rem;;
+
+  }
+  .footer-top-smIcon{
+    margin: 1rem 1rem 0 0;
+  } 
+  .bottom div{
+    width: 50px;
+  }
+}
