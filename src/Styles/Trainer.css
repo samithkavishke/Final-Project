@@ -13,16 +13,16 @@ p.pLog{
    font-size: 500%;
    color: #131c5d;
    text-align: center;
-   margin-bottom: 15%;
+   margin-bottom: 5%;
 }
 form.formTrainer {
   background-color: #fff;
   padding: 50px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  max-width: 400px;
+  max-width: 300px;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 label.labelTrainer {
   display: block;
@@ -46,5 +46,5 @@ button {
   margin-top: 10px;
 }
 button:hover {
-  background-color: #232745;
+  background-color: #6c72a3;
 }

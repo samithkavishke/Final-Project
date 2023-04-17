@@ -17,7 +17,7 @@ const Membership = () => {
         <div className='item'>
           <div className='price_card'>
             <h2 className='section_title'>One Month Package</h2>
-            <h2 className='pricing'>1000LKR</h2>
+            <h2 className='pricing'>3000LKR</h2>
           </div>
 
           <div className='service'>
@@ -35,7 +35,7 @@ const Membership = () => {
         <div className='item'>
           <div className='price_card'>
             <h2 className='section_title'>Six Month Package</h2>
-            <h2 className='pricing'>5000LKR</h2>
+            <h2 className='pricing'>5500LKR</h2>
           </div>
 
           <div className='service'>

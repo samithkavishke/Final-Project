@@ -12,6 +12,8 @@ import Footer from "./components/Footer";
 import Sign from "./pages/Sign";
 import AdminDashboard from "./pages/AdminDashboard";
 import Trainer from "./pages/Trainer";
+import Register from "./pages/TrainerRegister";
+
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
 <Route exact path="/sign" component={Sign}></Route>
 <Route exact path="/admin" component={AdminDashboard}></Route>
 <Route exact path="/trainer" component={Trainer}></Route>
+<Route exact path="/register" component={Register}></Route>
 
       </Switch>
       <Footer/>    
