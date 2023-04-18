@@ -24,7 +24,7 @@ const Home = () => {
       <select className='dropdown' value={selectedMembership} onChange={handleMembershipChange}>
             <option className='select' value="">Select And Register</option>
             <option value="Sign">User</option>
-            <option value="AdminDashboard">Admin</option>
+            <option value="adminRegister">Admin</option>
             <option value="Trainer">Trainer</option>
           </select>
       <Link to={`${selectedMembership}`}>

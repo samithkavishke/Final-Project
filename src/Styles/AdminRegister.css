@@ -1,0 +1,62 @@
+h1.adminRegister {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 1px;
+  }
+form.adminFormRegister {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  }
+  
+label.adminLabelRegister {
+    align-items: center;
+  }
+  
+input.adminInputRegister {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1f4176;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color:#6c72a3;
+    
+  }
+  p.Log{
+    margin-bottom: 1%;
+  }
+  
+  .regT {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  a {
+    color: #1f4176;
+  }
+  

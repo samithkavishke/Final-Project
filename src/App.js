@@ -11,8 +11,10 @@ import ContactUs from "./pages/ContactUs";
 import Footer from "./components/Footer";
 import Sign from "./pages/Sign";
 import AdminDashboard from "./pages/AdminDashboard";
-import Trainer from "./pages/Trainer";
+import Trainer from "./pages/TrainerLogin";
 import Register from "./pages/TrainerRegister";
+import AdminRegister from "./pages/AdminRegister";
+import AdminLogin from "./pages/AdminLogin";
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
 <Route exact path="/admin" component={AdminDashboard}></Route>
 <Route exact path="/trainer" component={Trainer}></Route>
 <Route exact path="/register" component={Register}></Route>
+<Route exact path="/adminRegister" component={AdminRegister}></Route>
+<Route exact path="/adminLogin" component={AdminLogin}></Route>
 
       </Switch>
       <Footer/>    

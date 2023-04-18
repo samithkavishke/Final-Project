@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 //import { useHistory } from 'react-router-dom'; // Import useHistory from React Router
 import { Link } from 'react-router-dom';
-import "../Styles/Trainer.css";
+import "../Styles/TrainerLogin.css";
 
 const Trainer = () => {
   const [email, setEmail] = useState('');

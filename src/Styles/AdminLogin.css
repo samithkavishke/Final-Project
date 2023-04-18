@@ -1,0 +1,50 @@
+.logT {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 1px;
+  }
+  p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  p.pLog{
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-size: 500%;
+     color: #131c5d;
+     text-align: center;
+     margin-bottom: 5%;
+  }
+  form.formAdmin {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  label.labelAdmin {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input.inputAdmin {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  button {
+    background-color: #1f4176;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  button:hover {
+    background-color: #6c72a3;
+  }
