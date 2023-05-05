@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import "../Styles/TrainerRegister.css";
+import axios from 'axios';
 
 const Register = () => {
-const [name, setName] = useState('');
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
+  const [qualifications, setQualifications] = useState('');
 
   const handleNameChange = (event) => {
     setName(event.target.value);
@@ -24,9 +26,35 @@ const [name, setName] = useState('');
     setConfirmPassword(event.target.value);
   };
 
+  const handleQualificationsChange = (event) => {
+    setQualifications(event.target.value);
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Code to register user
+    const userData = {
+      name: name,
+      email: email,
+      password: password,
+      confirmPassword: confirmPassword,
+      qualifications: qualifications
+    };
+
+    axios.post('http://localhost:8000/trainer/trainerRegister', userData)
+      .then(response => {
+        console.log(response.data);
+        setName('');
+        setEmail('');
+        setPassword('');
+        setConfirmPassword('');
+        setQualifications('');
+        alert("Register done!")
+        console.log("Register done!")
+
+      })
+      .catch(error => {
+        console.log(error);
+      });
   };
 
   return (
@@ -34,7 +62,7 @@ const [name, setName] = useState('');
       <h1 className='regT'>Trainer Registration</h1>
       <p>Register as a trainer to access the training platform.</p>
       <form className='formRegister' onSubmit={handleSubmit}>
-      <div>
+        <div>
           <label className='labelRegister' htmlFor="name">Name:</label>
           <input className='inputRegister'
             type="text"
@@ -71,6 +99,16 @@ const [name, setName] = useState('');
             id="confirmPassword"
             value={confirmPassword}
             onChange={handleConfirmPasswordChange}
+            required
+          />
+        </div>
+        <div>
+          <label className='labelRegister' htmlFor="qualifications">Qualifications:</label>
+          <input className='inputRegister'
+            type="text"
+            id="qualifications"
+            value={qualifications}
+            onChange={handleQualificationsChange}
             required
           />
         </div>

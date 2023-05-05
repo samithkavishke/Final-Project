@@ -8,6 +8,7 @@ import "../Styles/Home.css";
 
 const Home = () => {
   const [selectedMembership, setSelectedMembership] = useState('');
+  //setSelectMembership use to get values for selectMembership state
 
   const handleMembershipChange = (event) => {
     setSelectedMembership(event.target.value);
@@ -23,8 +24,8 @@ const Home = () => {
       <div>
       <select className='dropdown' value={selectedMembership} onChange={handleMembershipChange}>
             <option className='select' value="">Select And Register</option>
-            <option value="Sign">User</option>
-            <option value="adminRegister">Admin</option>
+            <option value="sign">User</option>
+            <option value="adminLogin">Admin</option>
             <option value="Trainer">Trainer</option>
           </select>
       <Link to={`${selectedMembership}`}>

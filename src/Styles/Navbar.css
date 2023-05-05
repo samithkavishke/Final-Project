@@ -7,7 +7,7 @@
   box-shadow: 0 5px 15px;
   margin-top: 1%;
   margin-left:0.6%;
-  width: 1425px;
+  width: 1435px;
   height: 80px;
   border-radius: 10px;
   z-index: 9999;
@@ -17,8 +17,9 @@
 .logo{
   color: black;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
   cursor: pointer;
+  
   
 }
 .ul{

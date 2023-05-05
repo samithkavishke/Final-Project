@@ -1,50 +1,62 @@
-.logT {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h1.loginT {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 150px;
   margin-bottom: 1px;
 }
-p{
-  text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-p.pLog{
-   font-family:Georgia, 'Times New Roman', Times, serif;
-   font-size: 500%;
-   color: #131c5d;
-   text-align: center;
-   margin-bottom: 5%;
-}
-form.formTrainer {
+
+form.formLogin {
   background-color: #fff;
   padding: 50px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
-  margin-bottom: 10px;
-}
-label.labelTrainer {
-  display: block;
-  margin-bottom: 10px;
-}
-
-input.inputTrainer {
-  width: 80%;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
   margin-bottom: 20px;
 }
-button {
-  background-color: #1f4176;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
+
+label.labelLogin {
+  align-items: center;
 }
-button:hover {
+
+input.inputLogin {
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1f4176;
+  color: white;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
   background-color: #6c72a3;
+}
+
+p.Reg {
+  margin-bottom: 1%;
+}
+
+.loginT {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  color: #1f4176;
 }

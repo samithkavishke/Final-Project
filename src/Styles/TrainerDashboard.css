@@ -1,0 +1,27 @@
+.TD {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.TrainerProfile {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.TrainerProfile h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.TrainerProfile p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.TrainerProfile .email {
+  font-style: italic;
+  color: gray;
+}

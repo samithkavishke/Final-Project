@@ -10,7 +10,7 @@ function ContactForm() {
     event.preventDefault();
 
     // Here you can write your code to submit the form data to your email sending service.
-    const response = await fetch('your-email-sending-service-url', {
+    const response = await fetch('http://localhost:8000/contact/contactUs', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

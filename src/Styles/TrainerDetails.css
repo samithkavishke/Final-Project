@@ -1,0 +1,24 @@
+.TrainerCom {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .TrainerCom p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .TrainerCom strong {
+    font-weight: 600;
+  }
+  
+  .TrainerCom p:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  

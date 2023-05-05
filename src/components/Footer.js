@@ -9,7 +9,7 @@ function Footer() {
     <div className='footer'>
         <div className='top'>
          <div>
-            <h1>Fitness</h1>
+            <h1>FitFlow</h1>
          </div>
          <div className="smIcon">
            <InstagramIcon /> <FacebookIcon />
