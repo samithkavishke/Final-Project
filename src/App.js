@@ -15,6 +15,8 @@ import AdminRegister from "./pages/AdminRegister";
 import AdminLogin from "./pages/AdminLogin";
 import UserDetails from "./pages/UserProfile";
 import TrainerDetails from "./pages/TrainerDetails";
+import SignupSigning from "./pages/SignupSigning";
+import Payement from "./pages/Payment";
 
 function App() {
   //const [trainerId, setTrainerId] = useState(null);
@@ -60,6 +62,7 @@ function App() {
         <Route exact path="/userDetails" component={UserDetails}></Route>
         <Route exact path="/trainer-details" component={TrainerDetails}></Route>
         <Route exact path="/trainerDashboard" component={TrainerDetails}></Route>
+        <Route exact path="/payement" component={Payement}></Route>
 
 
       

@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 //import SignupSigning from './SignupSigning';
 
 const Membership = () => {
+  
+
   return (
     <div className='membership'>
     <div className='backgroundMembership'></div>
@@ -44,7 +46,7 @@ const Membership = () => {
               <li>No personal trainer</li>
               <li>Per one person only</li>            
             </ul>
-            <Link to='/sign'>
+            <Link to='/payement'>
             <button className='join'>Purchase</button>
             </Link>
           </div>
@@ -61,7 +63,7 @@ const Membership = () => {
               <li>One personal trainer</li>
               <li>Per one person only</li>            
             </ul>
-            <Link to='/sign'>
+            <Link to='/payement'>
             <button className='join'>Purchase</button>
             </Link>
           </div>
